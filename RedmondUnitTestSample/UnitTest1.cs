@@ -99,5 +99,27 @@ namespace RedmondUnitTestSample
             // An assertion that the values are equal.
             Assert.AreEqual<int>(expected, actual);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void DivideByZero()
+        {
+            // Arrange
+            var value1 = 10;
+            var value2 = 0;
+
+            var sut = new Calculator();
+
+            // The expected returned value.
+            var expected = 2;
+
+            // Act
+            // The actual returned value.
+            var actual = sut.Divide(value1, value2);
+
+            // Assert
+            // An assertion that the values are equal.
+            Assert.AreEqual<int>(expected, actual);
+        }
     }
 }

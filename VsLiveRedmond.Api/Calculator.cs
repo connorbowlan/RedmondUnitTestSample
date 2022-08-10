@@ -14,6 +14,13 @@
 
         public int Divide(int value1, int value2)
         {
+            // This is an example of exercise both successful paths
+            // and failure paths.
+            if (value2 == 0)
+            {
+                throw new InvalidOperationException();
+            }
+
             return value1 / value2;
         }
 
