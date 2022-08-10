@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedmondUnitTestSample", "RedmondUnitTestSample\RedmondUnitTestSample.csproj", "{85BFF3D0-0012-4953-AFA2-1641212ABAF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsLiveRedmond.Api", "VsLiveRedmond.Api\VsLiveRedmond.Api.csproj", "{1C75F77C-F97B-4F09-AB7B-8D78C18715E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85BFF3D0-0012-4953-AFA2-1641212ABAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85BFF3D0-0012-4953-AFA2-1641212ABAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85BFF3D0-0012-4953-AFA2-1641212ABAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85BFF3D0-0012-4953-AFA2-1641212ABAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C75F77C-F97B-4F09-AB7B-8D78C18715E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C75F77C-F97B-4F09-AB7B-8D78C18715E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C75F77C-F97B-4F09-AB7B-8D78C18715E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C75F77C-F97B-4F09-AB7B-8D78C18715E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {175FAF3E-D434-48C9-8FFA-915C6D268C24}
+	EndGlobalSection
+EndGlobal
